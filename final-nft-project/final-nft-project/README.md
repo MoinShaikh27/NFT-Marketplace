@@ -19,7 +19,7 @@ dfx deploy --argument='("CryptoDunks #123", principal "gbdev-tyqsv-hnvqv-7mgz4-4
 ```
 
 4. Head to localhost
-
+```
 http://localhost:8080/
 
 ```
@@ -65,12 +65,13 @@ const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
 ```
 
 
-5.Assigning token to user 
- ```
-CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token)\""
+5.Assigning token to user
+
+```
+ CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token)\""
 ```
 
 6.
 ```
-dfx canister call token transfer "($CANISTER_PUBLIC_KEY,5000_000_000)"
+  dfx canister call token transfer "($CANISTER_PUBLIC_KEY,5000_000_000)"
 ```
