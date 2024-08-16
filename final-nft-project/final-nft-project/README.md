@@ -65,12 +65,12 @@ const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
 ```
 
 
-5.Assigning token to user 
+5.Assigning token to user
  ```
-CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token)\""
+  CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token)\""
 ```
 
 6.
 ```
-dfx canister call token transfer "($CANISTER_PUBLIC_KEY,5000_000_000)"
+  dfx canister call token transfer "($CANISTER_PUBLIC_KEY,5000_000_000)"
 ```
