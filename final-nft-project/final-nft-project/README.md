@@ -19,7 +19,7 @@ dfx deploy --argument='("CryptoDunks #123", principal "gbdev-tyqsv-hnvqv-7mgz4-4
 ```
 
 4. Head to localhost
-
+```
 http://localhost:8080/
 
 ```
