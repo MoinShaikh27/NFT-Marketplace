@@ -66,8 +66,9 @@ const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
 
 
 5.Assigning token to user
- ```
-  CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token)\""
+
+```
+ CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token)\""
 ```
 
 6.
